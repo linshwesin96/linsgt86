@@ -1,0 +1,162 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Racing Website Template</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script>
+	//this button is not working :")
+                function showMoreInfo() {
+            var moreInfo = document.getElementById("more-info");
+            if (moreInfo.style.display === "none") {
+                moreInfo.style.display = "block";
+            } else {
+                moreInfo.style.display = "none";
+            }
+        }
+
+        //I learned this from a video from youtube :")
+        function greetUser() {
+            var name = document.getElementById("userNameInput").value;
+            if (name.trim() !== "") {
+                alert("Welcome to my cute GT86 Fan Page, " + name + "!");
+            } else {
+                alert("Please enter your name first!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <script>
+        window.alert("Prof. Ozaydin, take a look at my favourite car.");
+    </script>
+    <div class="page">
+        <div style="text-align: center; padding: 15px 0 5px 0;">
+            <a href="https://freewebsitetemplates.com/preview/carracingwebtemplate/index.html" style="font-size: 18px; font-weight: bold; color: inherit; text-decoration: underline;">
+                Click here to visit the Template Preview
+            </a>
+        </div>
+
+        <div style="text-align: center; padding-bottom: 20px;">
+            <label for="userNameInput" style="font-weight: bold;">Who is visiting today?</label>
+            <br>
+            <input type="text" id="userNameInput" placeholder="Enter your name" style="padding: 5px; margin-top: 5px;">
+            <button onclick="greetUser()" style="padding: 5px 10px; cursor: pointer;">Submit</button>
+        </div>
+
+        <div class="header">
+            <a href="index.html" id="logo"><img src="images/linlogo.png" alt="logo" width="100" height="100"></a>
+            <ul>
+                <li class="selected">
+                    <a href="index.html">Home</a> <span></span>
+                </li>
+                <li>
+                    <a href="about.html">About</a> <span></span>
+                </li>
+                <li>
+                    <a href="news.html">News</a> <span></span>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a> <span></span>
+                </li>
+            </ul>
+            <div class="featured">
+                <h2>The cutest car ever exists</h2>
+                <p>
+                    This is the GT 86: a pocket rocket with a heart of gold. It’s an adorably compact sports coupe that tries its absolute hardest every single time you drive it. It has this Determined Little Face™ and sleek lines that say 'I'm fast!' even though it's just really cute. It’s the perfect little sidekick for everyday adventures.
+                </p>
+                <a href="about.html">view more</a>
+            </div>
+        </div>
+        <div class="body">
+            <div class="sidebar">
+                <div>
+                    <h3>Connect</h3>
+                    <a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a> <a href="http://freewebsitetemplates.com/go/facebook/" id="fb">fb</a> <a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">google+</a>
+                </div>
+                <div>
+                    <div>
+                        <h3>Primary</h3>
+                        <ul>
+                            <li>
+                                <h4><a href="news.html">Unbeaten</a></h4>
+                                <p>
+                                    Nothing beats GT86
+                                </p>
+                            </li>
+                            <li>
+                                <h4><a href="news.html">The Winner</a></h4>
+                                <p>
+                                    GT86 for the win
+                                </p>
+                            </li>
+                            <li>
+                                <h4><a href="news.html">Anything else?</a></h4>
+                                <p>
+                                    Wanna know more?
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3>Others</h3>
+                        <ul>
+                            <li>
+                                <h4><a href="news.html">How fast is it?</a></h4>
+                                <p>
+                                    Speed is getting on way
+                                </p>
+                            </li>
+                            <li>
+                                <h4><a href="news.html">Is this car crazy enough?</a></h4>
+                                <p>
+                                    Check for fun stuffs
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <h1>Nothing just GT86.</h1>
+                <a href="#"><img src="images/f716041618fafc5153f20f02046a1c44.jpg" alt=""></a>
+                <p>
+                    Power will likely come from a naturally aspirated 2.4-litre flat-four engine as its US-only twin, producing 228bhp and 249Nm of torque. That’s 31bhp and 44Nm more than the previous GT86’s output, and buyers should be able to choose between a six-speed manual or a six-speed automatic gearbox.
+                </p>
+                <p>
+                    Just a car everyone loves
+                </p>
+                <button onclick="showMoreInfo()">Click for more information</button>
+                <div id="more-info" style="display: none;">
+                    <p>
+                        The Toyota 86, also known as the GT86 in Europe and the Scion FR-S in the United States, is a sports car jointly developed by Toyota and Subaru. It features a front-engine, rear-wheel-drive layout and is powered by a 2.0L Subaru Boxer engine.
+                    </p>
+                    <p>
+                        The design of the 86 pays homage to Toyota's past sports cars, with a sleek and aerodynamic body. The handling is precise and the driving experience is engaging, making it a popular choice among car enthusiasts.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="news.html">News</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <p>
+                &#169; Copyright &#169; 23229024| Lin Shwe Sin
+            </p>
+        </div>
+    </div>
+</body>
+</html>
