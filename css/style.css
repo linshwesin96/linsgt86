@@ -1,0 +1,278 @@
+/* Website template by freewebsitetemplates.com */
+/*------------------------- Fonts ---------------------------*/
+@font-face {
+	font-family: 'Conv_OpenSans-Regular';
+	src: url('../fonts/OpenSans-Regular.eot');
+	src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans-Regular.woff') format('woff'),  url('../fonts/OpenSans-Regular.ttf') format('truetype'),  url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_JockeyOne-Regular';
+	src: url('../fonts/JockeyOne-Regular.eot');
+	src: url('../fonts/JockeyOne-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/JockeyOne-Regular.woff') format('woff'),  url('../fonts/JockeyOne-Regular.ttf') format('truetype'),  url('../fonts/JockeyOne-Regular.svg#JockeyOne-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*------------------------- Layout styles ------------------------*/
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(../images/bg-body.jpg) no-repeat center top #060606;
+	color: #ffffff; /* Set text color to white */
+}
+a {
+	outline: none;
+}
+a img {
+	border: 0;
+	display: block;
+}
+.page {
+	background: url(../images/bg-page.png) no-repeat center 145px;
+	width: 960px;
+	margin: 0 auto;
+}
+/*------------------------- Header -------------------------*/
+.header {
+	background: url(../images/bg-header.jpg) no-repeat;
+	padding: 28px 0 0;
+	position: relative;
+}
+.header a#logo {
+	display: block;
+	width: 625px;
+	height: 87px;
+	margin: 0 auto;
+}
+.header a#logo img {
+}
+.header ul {
+	padding: 0;
+	margin: 29px 0 0;
+	list-style: none;
+	overflow: hidden;
+}
+.header ul li {
+	float: left;
+	background: url(../images/bg-nav.jpg) no-repeat;
+	width: 240px;
+	height: 48px;
+	transition: background 0.3s ease;
+}
+.header ul li:hover {
+	background: url(../images/bg-nav-hover.jpg) no-repeat;
+}
+.header ul li.selected {
+	background: url(../images/bg-nav-selected.jpg) no-repeat;
+	width: 240px;
+	height: 48px;
+}
+.header ul li a {
+	float: left;
+	font-family: 'Conv_JockeyOne-Regular';
+	font-size: 18px;
+	line-height: 24px;
+	text-decoration: none;
+	text-shadow: 0 2px 0 #3b3939;
+	color: #fff;
+	margin: 11px 0 0 15px;
+	display: block;
+}
+.header ul li a:hover {
+	color: #c40303;
+}
+.header ul li span {
+	display: block;
+	float: right;
+	font-family: 'Conv_OpenSans-Regular';
+	color: #525252;
+	font-size: 10px;
+	line-height: 24px;
+	margin: 14px 15px 0 0;
+}
+.header div.featured {
+	background: url(../images/pngtree-anime-character-beside-brz-car-on-clean-white-background-png-image_16910742.webp) no-repeat right -100px; 
+	height: 500px;
+	color: #ffffff;
+}
+.header div.featured h2 {
+	margin: 0;
+	font-family: 'Conv_JockeyOne-Regular';
+	font-size: 32px;
+	line-height: 24px;
+	color: #f9fafd;
+	font-weight: normal;
+	margin: 48px 0 0 15px;
+	display: inline-block;
+}
+.header div.featured p {
+	width: 378px;
+	color: #f9fafd;
+	font-size: 12px;
+	line-height: 24px;
+	background: url(../images/bg-transparent.png);
+	margin: 26px 0 0;
+	padding: 15px 20px 0 15px;
+	width: 341px;
+}
+.header div.featured p a {
+	background: none;
+	width: auto;
+	height: auto;
+	margin: 0;
+	display: inline;
+	color: #B11212;
+	text-decoration: none;
+}
+.header div.featured p a:hover {
+	text-decoration: underline;
+}
+.header div.featured a {
+	background: url(../images/button-view-more.jpg) no-repeat;
+	display: block;
+	height: 36px;
+	width: 186px;
+	margin: 21px 0 0 15px;
+	text-indent: -99999px;
+	transition: background 0.3s ease;
+}
+.header div.featured a:hover {
+	background: url(../images/button-view-more-hover.jpg) no-repeat;
+}
+.header-about {
+	position: static;
+}
+.header-about div.featured {
+	background: url(../images/featured.png) no-repeat;
+	height: 360px;
+	margin: 0 0 60px;
+}
+.header-about div.featured h2 {
+	display: block;
+	font-family: 'Conv_JockeyOne-Regular';
+	color: #d9d9d9;
+	text-shadow: 0 3px 4px #000000;
+	font-size: 52px;
+	line-height: 36px;
+	font-style: italic;
+	margin: 128px 0 0 50px;
+	display: inline-block;
+}
+.header-about div.featured span {
+	display: block;
+	font-size: 20px;
+	line-height: 36px;
+	color: #a9a7a7;
+	text-shadow: 0 3px 4px #000000;
+	font-style: italic;
+	margin: 9px 0 0 300px;
+	padding: 0 40px 0 0;
+}
+.header-news div.featured {
+	background: url(../images/racer.jpg) no-repeat right 18px;
+	padding: 18px 0 0;
+	height: 402px;
+	color: #ffffff;
+}
+.header-news .featured h4, .header-contact .featured h4 {
+	margin: 0;
+	background: url(../images/bg-title.png) no-repeat;
+	width: 378px;
+	height: 36px;
+	font-size: 24px;
+	line-height: 29px;
+	color: #f95a5a;
+	font-family: 'Conv_JockeyOne-Regular';
+	font-weight: normal;
+	padding: 0 0 0 15px;
+}
+.header-news .featured h3, .header-contact .featured h3 {
+	margin: 18px 0 0 15px;
+	font-family: 'Conv_JockeyOne-Regular';
+	font-size: 32px;
+	line-height: 36px;
+	color: #fff;
+	font-weight: normal;
+}
+.header-news .featured p, .header-contact .featured p {
+	background: none !important;
+	margin: 15px 0 0 !important;
+	padding: 0 0 0 15px !important;
+}
+.header-contact div.featured {
+	background: url(../images/founders.png) no-repeat 282px 39px;
+	height: 321px;
+	padding: 48px 0 0;
+	margin: 0 0 51px;
+}
+/*------------------------- Body ---------------------------*/
+.body {
+	border-top: 6px solid #a50606;
+	background: url(../images/border2.png) repeat-x left bottom #dcd9d9;
+	margin: -60px 0 0;
+	padding: 18px 0 83px 18px;
+	overflow: hidden;
+}
+.body div.sidebar {
+	width: 192px;
+	float: left;
+	margin: 0 60px 0 0;
+}
+.body div.sidebar div:first-child {
+	overflow: hidden;
+	padding: 0 0 18px;
+	margin: 0;
+}
+.body div.sidebar div {
+	background: none #1b1b1b;
+	margin: 36px 0 0;
+}
+.body div.sidebar div h3 {
+	height: 24px;
+	background: none #840808;
+	padding: 0 0 0 12px;
+	color: #f9fafd;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	display: block;
+	margin: 0;
+	font-family: 'Conv_JockeyOne-Regular';
+	font-weight: normal;
+}
+.body div.sidebar div a#twitter {
+	background: url(../images/icons.png) no-repeat;
+	width: 28px;
+	height: 24px;
+	text-indent: -99999px;
+	display: block;
+	float: left;
+	margin: 18px 0 0 18px;
+	transition: background 0.3s ease;
+}
+.body div.sidebar div a#twitter:hover {
+	background: url(../images/icons.png) no-repeat 0 -73px;
+}
+.body div.sidebar div a#fb {
+	background: url(../images/icons.png) no-repeat 0 -25px;
+	width: 27px;
+	height: 23px;
+	text-indent: -99999px;
+	display: block;
+	float: left;
+	margin: 18px 38px 0;
+	transition: background 0.3s ease;
+}
+.body div.sidebar div a#fb:hover {
+	background: url(../images/icons.png) no-repeat 0 -98px;
+}
+.body div.sidebar div a#googleplus {
+	background: url(../images/icons.png) no-repeat 0 -49px;
+	width: 23px;
+	height: 23px;
+	text-indent: -99999px;
+	display: block;
+	float: left;
+	margin: 18px 0 0;
+	transition: background
